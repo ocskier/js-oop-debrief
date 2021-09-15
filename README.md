@@ -18,7 +18,7 @@ For this project you will make three classes: one parent class and two child cla
 You can make your classes anything you want (e.g. Person, Vehicle, Media, Ship, School, etc.) there are no restrictions on what your classes are or what their methods do.  Get creative!
 
 - Below is the sample JS from the opening sync session showing related structure for clarity
-- An index file that links to the app.js file allows you to check your tests in the browser.
+- An index file that links to the app.js file allows you to check your logic by logging values to the dev console in the browser.
 
 ```javascript
 class Person {
