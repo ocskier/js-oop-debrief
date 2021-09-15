@@ -7,11 +7,11 @@ Today you work on objects, classes, and inheritance.  To do this, you will work 
 For this project you will make three classes: one parent class and two child classes.
 
 1. Your parent class should have:
-    Three properties
-    One method
+    3 properties
+    1 method
 
 2. Your child classes should have:
-    One additional property each
+    1 additional property each
 
 3. One of your child classes should include an additional method
 
