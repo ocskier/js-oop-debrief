@@ -19,4 +19,9 @@ community.dog.speak()
 $( "#chatlog" ).on( "mouseover", ".msg", function() {
   let whom = $(this).attr("whom");
   $("#explorer").html( Mustache.render($('#exlporerTemp').html(), community[whom]));
+  $(this).addClass("hover")
+});
+
+$( "#chatlog" ).on( "mouseleave", ".msg", function() {
+  $(this).removeClass("hover")
 });

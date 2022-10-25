@@ -44,3 +44,6 @@ html{
   list-style: none;
   padding: 5px;
 }
+.hover{
+  background-color: rgb(214, 191, 191) !important;
+}
