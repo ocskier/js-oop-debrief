@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Classes</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <style>
-            strong {
-                font-size: 2rem;
-                margin: 2rem;
-            }
-        </style>
-    </head>
-    <body>
-        <strong>Magic is in the dev console<span></span></strong>
-        <script src="assets/js/app.js" async defer></script>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Classes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script id="exlporerTemp" type="x-tmpl-mustache">
+      <h1><span id="e_name">{{nickname}}</span></h1>
+      <h3><span id="e_species">{{species}}</span></h3>
+      <ul id="e_attr">
+        <li><p>health: {{health}}hp</p><li>
+        <li><p>soul: {{soul}}</p></li>
+        <li><p>color: {{color}}</p></li>
+        <li><p>age: {{age}}</p></li>
+      </ul>
+    </script>
+  </head>
+  <body>
+    <div id="chatbox" class="container">
+      <div id="chatlog"></div>
+
+    </div>
+    <div id="explorer" class="container">
+      <h1><span id="e_name">name</span></h1>
+      <h3><span id="e_species">species</span></h3>
+      <ul id="e_attr">
+
+      </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/mustache@4.2.0/mustache.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./assets/js/Chat.js" async defer></script>
+    <script src="./assets/js/Animals.js" async defer></script>
+    <script src="./assets/js/script.js" async defer></script>
+  </body>
 </html>
